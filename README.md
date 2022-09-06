@@ -1,0 +1,1 @@
+# solo-static-comp
