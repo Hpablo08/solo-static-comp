@@ -21,9 +21,12 @@
           <button type=submit id='btn' class='logInButton'>Login</button>
           <br>
           <div id="main">
-            <button class="nav-btn-1"><span class="material-icons">&#xE935;</span></button>
-            <button class="nav-btn-2"><span class="material-icons">&#xe0ba;</span></button>
-            <button class="nav-btn-3"><span class="material-icons">&#xef3e;</span></button>
+            <button class="nav-btn-1" title='Calendar'><span class="material-icons">&#xe935;</span></button>
+
+            <button class="nav-btn-2" title='Profiles'><span class="material-icons">&#xe0ba;</span></button>
+
+            <button class="nav-btn-3" title='Statistics'><span class="material-icons" >&#xef3e;</span></button>
+
             <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
           </div>
         </article>
@@ -34,7 +37,7 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">Home</a>
       <a href="#">Jobs</a>
-      <a href="#">Resume</a>
+      <a href="#">Favorites</a>
       <a href="#">Calendar</a>
     </div>
     <div class='header-for-clients'>
@@ -42,38 +45,39 @@
     </div>
     <section class='cards-container'>
       <article class='card'>
-        <button class="fav-btn">&#10029;</button>
+        <button class="fav-btn" title='Add Favorite'>&#10029;</button>
         <img class="card-img" src="./assets/neo.jpeg" alt="Neo-ProfilePick">
         <section class='card-description'>
           <h4>Name: Neo</h4>
           <h5>Job Type: Program Developer</h5>
           <h5>Description:</h5>
-          <button class="add-btn">&#43;</button>
+          <button class="add-btn" title='Add User'>&#43;</button>
         </section>
       </article>
       <article class='card'>
-        <button class="fav-btn">&#10029;</button>
+        <button class="fav-btn" title='Add Favorite'>&#10029;</button>
         <img class="card-img" src="./assets/constantine.jpeg" alt="Constantine-profilePick">
         <section class='card-description'>
           <h4>Name: Constantine</h4>
           <h5>Job Type: Spiritual Leader</h5>
           <h5>Description:</h5>
-          <button class="add-btn">&#43;</button>
+          <button class="add-btn" title='Add User'>&#43;</button>
         </section>
       </article>
       <article class='card'>
-        <button class="fav-btn">&#10029;</button>
+        <button class="fav-btn" title='Add Favorite'>&#10029;</button>
         <img class="card-img" src="./assets/JohnWick.jpeg" alt="JohnWick-profilePick">
         <section class='card-description'>
           <h4>Name: John Wick</h4>
           <h5>Job Type: Life Coach</h5>
           <h5>Description:</h5>
-          <button class="add-btn">&#43;</button>
+          <button class="add-btn" title='Add User'>&#43;</button>
         </section>
       </article>
 
     </section>
     <script src="./main.js"></script>
+
   </body>
 
   </html>

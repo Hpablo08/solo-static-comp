@@ -1,29 +1,29 @@
-
-header{
-  width:100%;
+header {
+  width: 100%;
   text-align: center;
   background-color: #607D8B;
 }
+
 body {
- background-color: #9E9E9E;
- position: relative;
+  background-color: #9E9E9E;
+  position: relative;
 }
 
 header, body {
-font-family: 'Roboto', sans-serif;
-color:#ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
 
-.log-in{
+.log-in {
   padding: 5px;
   text-align: right;
 }
 
-.client-header{
+.client-header {
   font-size: 25px;
 }
-/* Cards  */
 
+/* Cards  */
 .cards-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -35,43 +35,44 @@ color:#ffffff;
   justify-content: flex-start;
   grid-area: 3 / 1 / 6 / 6;
   position: relative;
-
 }
 
-h4,h5 {
+h4, h5 {
   margin: 10px;
 }
 
-.card{
+.card {
   contain: content;
   display: flex;
   flex-direction: column;
   font-size: 14px;
   margin: 10px;
   width: 140px;
-  height:230px;
+  height: 230px;
   padding: 10px;
   border-radius: 3px;
   background-color: white;
-  background: linear-gradient(-45deg, #607D8B, #CFD8DC, #607D8B, #455A64);
+  background: linear-gradient(-45deg, #607D8B, #757575, #607D8B, #455A64);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  position:relative;
+  animation: gradient 12s ease infinite;
+  position: relative;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.card-img{
+.card-img {
   padding: 5px;
   height: 90px;
 }
@@ -99,7 +100,6 @@ h4,h5 {
   transition: 0.3s;
 }
 
-
 .sidebar a:hover {
   color: #f1f1f1;
 }
@@ -122,35 +122,37 @@ h4,h5 {
   margin: 83px 0 0px 20px;
 }
 
-.nav-btn-1{
-  position:absolute;
-  left:20px;
-
+.nav-btn-1 {
+  position: absolute;
+  left: 20px;
+  background-color: transparent;
+  border: none;
 }
 
-.nav-btn-2{
-  position:absolute;
-  left:80px;  
+.nav-btn-2 {
+  position: absolute;
+  left: 80px;
+  background-color: transparent;
+  border: none;
 }
 
-.nav-btn-3{
-  position:absolute;
-  left:140px;
+.nav-btn-3 {
+  position: absolute;
+  left: 140px;
   padding: none;
+  background-color: transparent;
+  border: none;
 }
 
-.material-icons{
+.material-icons {
   cursor: pointer;
   background-color: #BDBDBD;
   color: #455A64;
   border-radius: 2px;
-  border:none;
   padding: none;
-
 }
 
-
-.add-btn{
+.add-btn {
   background-color: #BDBDBD;
   color: #455A64;
   border-radius: 20px;
@@ -159,24 +161,25 @@ h4,h5 {
   bottom: 0;
   left: 0;
   margin: 0 0 5px 5px;
-
-}
-#btn, .openbtn,  {
-  font-size: 14px;
-  cursor: pointer;
-  background-color: #BDBDBD;
-  color: #455A64;
-  padding: 10px 15px;
-  border-radius: 2px;
-  border:none;
 }
 
-.fav-btn:hover{
-color: red;
+#btn, .openbtn, {
+font-size: 14px;
+cursor: pointer;
+background-color: #BDBDBD;
+color: #455A64;
+padding: 10px 15px;
+border-radius: 2px;
+border: none;
 }
 
-#btn:hover,.openbtn:hover,.add-btn:hover {
+.fav-btn:hover {
+  color: red;
+}
+
+#btn:hover, .openbtn:hover, .add-btn:hover, .material-icons:hover {
   background-color: #444;
+  color: #ffffff;
 }
 
 #main {
@@ -185,6 +188,11 @@ color: red;
 }
 
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
 }
