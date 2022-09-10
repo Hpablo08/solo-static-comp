@@ -32,7 +32,7 @@ This application is a chance for students to build a Static comp of our own to c
 
 
 ## Links
-- The spec for this project can be found [here](https://frontend.turing.edu/projects/module-1/tic-tac-toe-solo-v2.html).
+- The spec for this project can be found [here](https://hpablo08.github.io/solo-static-comp/).
 
 
 ## Contributors
