@@ -22,7 +22,7 @@ This application is a chance for students to build a Static comp of our own to c
 
 ## Screenshots
 <p align="center">
-    <img width="500" src="https://media.giphy.com/media/dfSSwSOJQL0Yqlawmp/giphy.gif" alt="Static comp preview gif">
+    <img width="500" src='https://media.giphy.com/media/Oej49CTIwMPUJ3QLFN/giphy.gif' alt="Static comp preview gif">
 </p>
 <br />
 
