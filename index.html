@@ -1,69 +1,79 @@
 <!DOCTYPEhtml>
-<html lang='en'>
+  <html lang='en'>
+
   <head>
     <link rel='stylesheet' href='./styles.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
+
   <body>
     <header>
       <div class='top-nav'>
-      <img class="pokemon-icon-img" src="" alt="">
-      <h1>Hiring Manager</h1>
-      <p class='display-name'>Hello ! </p>
+        <img class="pokemon-icon-img" src="" alt="">
+        <h1>Hiring Manager</h1>
+        <p class='display-name'>Hello ! </p>
         <article class='log-in'>
-        <input class='user-name' id= 'btn' name='username' size='15' maxlength='30' />
-          <button type= submit id= 'btn' class='logInButton'>Login</button>
+          <input class='user-name' id='btn' name='username' size='15' maxlength='30' />
+          <button type=submit id='btn' class='logInButton'>Login</button>
           <br>
           <div id="main">
+            <button class="nav-btn-1"><span class="material-icons">&#xE935;</span></button>
+            <button class="nav-btn-2"><span class="material-icons">&#xe0ba;</span></button>
+            <button class="nav-btn-3"><span class="material-icons">&#xef3e;</span></button>
             <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
           </div>
-          </article>
+        </article>
+        <article class='log-in'>
+      </div>
     </header>
-      <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
-      <div class='header-for-clients'>
-      <p class= 'client-header'>Active Applications</p>
-      </div>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">Jobs</a>
+      <a href="#">Resume</a>
+      <a href="#">Calendar</a>
+    </div>
+    <div class='header-for-clients'>
+      <p class='client-header'>Active Applications</p>
+    </div>
     <section class='cards-container'>
-  
       <article class='card'>
-        <img class="card-img" src="./assets/neo.jpeg" alt="">
-      <section class='card-description'
-        <h4>Name: Neo</h4>
-        <h5>Type: Program Developer</h5>
-        <h5>Description:</h5>
-        <button class="add-btn">&#43;</button>
-        </section>
-      </article>
-
-      <article class='card'>
-        <img class="card-img" src="./assets/constantine.jpeg" alt="">
-      <section class='card-description'
-        <h4>Name: Constantine</h4>
-        <h5>Type: Spiritual Leader</h5>
-        <h5>Description:</h5>
-        <button class="add-btn">&#43;</button>
+        <button class="fav-btn">&#10029;</button>
+        <img class="card-img" src="./assets/neo.jpeg" alt="Neo-ProfilePick">
+        <section class='card-description'>
+          <h4>Name: Neo</h4>
+          <h5>Job Type: Program Developer</h5>
+          <h5>Description:</h5>
+          <button class="add-btn">&#43;</button>
         </section>
       </article>
       <article class='card'>
-        <img class="card-img" src="./assets/JohnWick.jpeg" alt="">
-      <section class='card-description'
-        <h4>Name: John Wick</h4>
-        <h5>Type: Life Coach</h5>
-        <h5>Description:</h5>
-        <button class="add-btn">&#43;</button>
+        <button class="fav-btn">&#10029;</button>
+        <img class="card-img" src="./assets/constantine.jpeg" alt="Constantine-profilePick">
+        <section class='card-description'>
+          <h4>Name: Constantine</h4>
+          <h5>Job Type: Spiritual Leader</h5>
+          <h5>Description:</h5>
+          <button class="add-btn">&#43;</button>
+        </section>
+      </article>
+      <article class='card'>
+        <button class="fav-btn">&#10029;</button>
+        <img class="card-img" src="./assets/JohnWick.jpeg" alt="JohnWick-profilePick">
+        <section class='card-description'>
+          <h4>Name: John Wick</h4>
+          <h5>Job Type: Life Coach</h5>
+          <h5>Description:</h5>
+          <button class="add-btn">&#43;</button>
         </section>
       </article>
 
     </section>
-<script src="./main.js"></script>
- </body>
+    <script src="./main.js"></script>
+  </body>
 
-</html>
+  </html>

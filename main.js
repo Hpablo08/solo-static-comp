@@ -5,18 +5,13 @@ var nameDisplay = document.querySelector('.display-name')
 var leftNav = document.querySelector('.left-nav')
 
 logInButton.addEventListener('click', displayName)
-sideBarButton.addEventListener('click', displaySideBar)
+
 
 
 function displayName() {
   console.log('hello')
   nameDisplay.innerText = `Hello, ${userNameInput.value}!`
 
-}
-
-function displaySideBar(){
-  console.log('HEYYYYY')
-  leftNav.classList.toggle('hidden')
 }
 
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
